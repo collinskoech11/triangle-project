@@ -1,0 +1,13 @@
+body{
+  background-image: /home/golda/Documents/triangle-tracker/images;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+.title{
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
