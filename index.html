@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <<link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Triangle Trackers</title>
   </head>
   <body>
     <div id="bg">
-      <img src="images/mg.jpg" alt="">
-  </div>
+      <img src="images/mg.jpg" alt="" style="width:500px;height:350px;">
+    </div>
    <div class="title">
       <h1>Triangle Tracker</h1>
    </div>
@@ -22,11 +22,11 @@
        <label for="thirdl">Enter the Third Length:</label>
        <input type="number" name="third" id ="thirdl">
 
-       <button type="button" onclick="track()"><strong>Find Out!</strong></button>
+       <button type="button" onclick="track()"><strong>Lets Name It!</strong></button>
        <button type="reset" onclick="reseting()" id = "reset"><strong>Reset All!</strong></button>
   </form>
+  <span id = "result"></span>  
 
-         <span id = "result"></span>
-         <script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
   </body>
 </html>
